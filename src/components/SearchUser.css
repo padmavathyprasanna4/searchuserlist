@@ -1,0 +1,61 @@
+/* SearchUser.css */
+
+.searchuser-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 1.5rem;
+  background: #f7f7f7;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.searchuser-container h1 {
+  margin-bottom: 1rem;
+}
+
+.searchuser-input {
+  width: 100%;
+  max-width: 480px;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchuser-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+.searchuser-status {
+  margin-top: 1rem;
+  color: #666;
+}
+
+.searchuser-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.3rem;
+  text-align: left;
+}
+
+.searchuser-item {
+  background: #ffffff;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.searchuser-item strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.searchuser-item span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
